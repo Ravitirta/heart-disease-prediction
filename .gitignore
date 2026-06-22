@@ -1,19 +1,59 @@
-# Mengabaikan semua file di dalam folder data, kecuali .gitkeep
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Virtual environments =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ===== Data =====
 data/raw/*
 !data/raw/.gitkeep
-# data/interim/*
-# !data/interim/.gitkeep
-# data/processed/*
-# !data/processed/.gitkeep
 
-# Mengabaikan model dan report
-models/*
+# ===== Trained models / large binary artifacts =====
+models/*.pkl
+models/*.joblib
+models/*.cbm
+models/*.bin
 !models/.gitkeep
-# reports/figures/*
-# !reports/figures/.gitkeep
-# reports/submission/*
-# !reports/submission/.gitkeep
 
-# Mengabaikan file auto-generated Jupyter dan Catboost
-.ipynb_checkpoints/
-catboost_info/
+# ===== LLM cache / downloaded weights =====
+.cache/
+**/huggingface/
+
+# ===== Reports / generated outputs =====
+reports/*.txt
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Environment variables / secrets =====
+.env
+*.env

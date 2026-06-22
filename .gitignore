@@ -35,10 +35,10 @@ data/raw/*
 !data/raw/.gitkeep
 
 # ===== Trained models / large binary artifacts =====
-models/*.pkl
-models/*.joblib
-models/*.cbm
-models/*.bin
+# models/*.pkl
+# models/*.joblib
+# models/*.cbm
+# models/*.bin
 !models/.gitkeep
 
 # ===== LLM cache / downloaded weights =====

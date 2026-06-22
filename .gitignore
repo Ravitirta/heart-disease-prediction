@@ -1,0 +1,15 @@
+# Mengabaikan semua file di dalam folder data, kecuali .gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Mengabaikan model dan report
+models/*
+!models/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+reports/submission/*
+!reports/submission/.gitkeep

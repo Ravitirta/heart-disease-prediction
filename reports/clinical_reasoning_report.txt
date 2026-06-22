@@ -1,0 +1,75 @@
+
+======================================================================
+Patient ID        : #443
+Model Prediction  : HEART DISEASE (1)
+Confidence Score  : 98.2%
+
+Rule-Based Risk Factors Detected:
+  - ChestPainType = ASY (Asymptomatic): the absence of chest pain is itself a recognized red flag, since silent ischemia is frequently missed in clinical practice precisely because it is painless.
+  - ST_Slope = Flat: an abnormal ST-segment slope during the exercise stress test suggests impaired myocardial perfusion.
+  - ExerciseAngina = Y: chest pain provoked by exercise is a strong clinical confirmation of activity-induced coronary ischemia.
+
+LLM Clinical Reasoning (Qwen/Qwen2.5-0.5B-Instruct):
+This patient has Asymptomatic Chest Pain Type (ASY). The Oldpeak value of 1.2 indicates mild exertion may trigger angina. The ST_Slope being Flat suggests stable coronary artery disease. These factors increase the risk of heart disease.
+======================================================================
+
+======================================================================
+Patient ID        : #351
+Model Prediction  : HEART DISEASE (1)
+Confidence Score  : 97.9%
+
+Rule-Based Risk Factors Detected:
+  - ChestPainType = ASY (Asymptomatic): the absence of chest pain is itself a recognized red flag, since silent ischemia is frequently missed in clinical practice precisely because it is painless.
+  - ST_Slope = Flat: an abnormal ST-segment slope during the exercise stress test suggests impaired myocardial perfusion.
+
+LLM Clinical Reasoning (Qwen/Qwen2.5-0.5B-Instruct):
+This patient has Asymptomatic Chest Pain Type (Chest pain without typical symptoms). The Oldpeak value of 0.0 suggests minimal exertion does not exacerbate their condition. The ST_Slope being Flat indicates stable angina, which is a common sign of coronary artery disease. Together, these factors increase the risk of developing heart disease.
+======================================================================
+
+======================================================================
+Patient ID        : #532
+Model Prediction  : HEART DISEASE (1)
+Confidence Score  : 97.5%
+
+Rule-Based Risk Factors Detected:
+  - ChestPainType = ASY (Asymptomatic): the absence of chest pain is itself a recognized red flag, since silent ischemia is frequently missed in clinical practice precisely because it is painless.
+  - Oldpeak = 1.8 mm (elevated): significant ST-segment depression indicates myocardial ischemia during physical exertion.
+  - ST_Slope = Flat: an abnormal ST-segment slope during the exercise stress test suggests impaired myocardial perfusion.
+  - ExerciseAngina = Y: chest pain provoked by exercise is a strong clinical confirmation of activity-induced coronary ischemia.
+  - MaxHR = 115 bpm: chronotropic capacity is markedly limited for a patient aged 64.
+  - RestingBP = 143 mmHg: Stage 2 hypertension chronically increases left-ventricular workload.
+
+LLM Clinical Reasoning (Qwen/Qwen2.5-0.5B-Instruct):
+This patient has Asymptomatic Chest Pain Type (ChestPainType = ASY), indicating no symptoms or signs of chest pain. The Oldpeak value of 1.8 suggests mild elevation in blood pressure, while the ST_Slope of Flat indicates stable angina, both of which are concerning for potential heart disease risk. Together, these factors increase the patient’s risk of developing coronary artery disease.
+======================================================================
+
+======================================================================
+Patient ID        : #413
+Model Prediction  : HEART DISEASE (1)
+Confidence Score  : 97.2%
+
+Rule-Based Risk Factors Detected:
+  - ChestPainType = ASY (Asymptomatic): the absence of chest pain is itself a recognized red flag, since silent ischemia is frequently missed in clinical practice precisely because it is painless.
+  - ST_Slope = Flat: an abnormal ST-segment slope during the exercise stress test suggests impaired myocardial perfusion.
+  - ExerciseAngina = Y: chest pain provoked by exercise is a strong clinical confirmation of activity-induced coronary ischemia.
+  - MaxHR = 103 bpm: chronotropic capacity is markedly limited for a patient aged 56.
+
+LLM Clinical Reasoning (Qwen/Qwen2.5-0.5B-Instruct):
+This patient has Asymptomatic Chest Pain Type (ASY), indicating no chest pain symptoms. The Oldpeak value of 1.0 suggests minimal exertion or rest can cause angina, which is common in patients with ASY. Additionally, the ST_Slope being Flat indicates that there is no significant elevation in blood pressure during exercise, further supporting the diagnosis of ASY. This combination of factors strongly suggests increased risk for heart disease.
+======================================================================
+
+======================================================================
+Patient ID        : #585
+Model Prediction  : HEART DISEASE (1)
+Confidence Score  : 97.1%
+
+Rule-Based Risk Factors Detected:
+  - ChestPainType = ASY (Asymptomatic): the absence of chest pain is itself a recognized red flag, since silent ischemia is frequently missed in clinical practice precisely because it is painless.
+  - ST_Slope = Flat: an abnormal ST-segment slope during the exercise stress test suggests impaired myocardial perfusion.
+  - ExerciseAngina = Y: chest pain provoked by exercise is a strong clinical confirmation of activity-induced coronary ischemia.
+  - MaxHR = 116 bpm: chronotropic capacity is markedly limited for a patient aged 64.
+  - RestingBP = 141 mmHg: Stage 2 hypertension chronically increases left-ventricular workload.
+
+LLM Clinical Reasoning (Qwen/Qwen2.5-0.5B-Instruct):
+This patient has Asymptomatic Chest Pain Type (ChestPainType = ASY), indicating mild or no chest pain. The Oldpeak value of 1.5 suggests minimal exertion during exercise, which could be indicative of low cardiovascular fitness. Additionally, the ST_Slope being Flat indicates that there is no significant change in the slope of the resting electrocardiogram over time, suggesting stable heart function. These factors collectively raise concerns about potential increased risk for heart disease.
+======================================================================

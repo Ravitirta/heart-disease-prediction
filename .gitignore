@@ -11,8 +11,8 @@ models/*
 !models/.gitkeep
 # reports/figures/*
 # !reports/figures/.gitkeep
-reports/submission/*
-!reports/submission/.gitkeep
+# reports/submission/*
+# !reports/submission/.gitkeep
 
 # Mengabaikan file auto-generated Jupyter dan Catboost
 .ipynb_checkpoints/

@@ -9,8 +9,8 @@ data/raw/*
 # Mengabaikan model dan report
 models/*
 !models/.gitkeep
-reports/figures/*
-!reports/figures/.gitkeep
+# reports/figures/*
+# !reports/figures/.gitkeep
 reports/submission/*
 !reports/submission/.gitkeep
 
